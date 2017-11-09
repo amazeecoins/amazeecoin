@@ -1,0 +1,739 @@
+<?php  
+include "auth_site.php";
+?>
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Institutions - Amazeecoin</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+	<!-- Animate.css -->
+
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- Icomoon Icon Fonts-->
+
+	<link rel="stylesheet" href="css/icomoon.css">
+
+	<!-- Themify Icons-->
+
+	<link rel="stylesheet" href="css/themify-icons.css">
+
+	<!-- Bootstrap  -->
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Flexslider -->
+
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Theme style  -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/mystyle.css">
+
+	<link rel="stylesheet" href="css/dropdown.css">
+
+	<link href="css/global.css" rel="stylesheet">
+
+	<link href="css/responsive.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+
+
+	<div class="ubea-loader"></div>
+
+
+
+	<div id="page">
+
+	<div id="wrapper" >
+
+			<!--header Section Start Here -->
+
+			<header id="header" class="normal">
+
+				<div class="navigation-header">
+
+					<div class="container">
+
+						<div class="row">
+
+							<a href="index.php" class="col-xs-12 col-sm-2 col-md-2 logo"><i class="svg-shape"> </i><img src="images/logo.png" alt="" title="" class="svg"/></a>
+
+							<div class="col-xs-12 col-sm-12 col-md-10 navigation">
+
+								<nav class="navbar navbar-default">
+
+									<!-- Brand and toggle get grouped for better mobile display -->
+
+									<div class="navbar-header">
+
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+
+											<span class="sr-only">Toggle navigation</span>
+
+											<span class="icon-bar"></span>
+
+											<span class="icon-bar"></span>
+
+											<span class="icon-bar"></span>
+
+										</button>
+
+									</div>
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+
+									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+
+										<ul class="nav navbar-nav" style="color:#fff;">
+
+											<li>
+
+												<a href="index.php">Home </a>
+
+											</li>
+
+											<li class="dropdown">
+
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Get Started <span class="caret"></span></a>
+
+												<ul class="dropdown-menu" role="menu">
+
+													<li>
+
+														<a href="about.php">About</a>
+
+													</li>
+
+													<li>
+
+														<a href="management.php">Management</a>
+
+													</li>
+
+													<li>
+
+														<a href="technology.php">Technology</a>
+
+													</li>
+
+
+
+													<li>
+
+														<a href="investor.php">Investors</a>
+
+													</li>
+
+													<li>
+
+														<a href="developer.php">Developers</a>
+
+													</li>
+
+													<li>
+
+														<a href="regulator.php">Regulators</a>
+
+													</li>
+
+												</ul>
+
+
+
+											</li>
+
+											<li class="dropdown">
+
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Markets <span class="caret"></span></a>
+
+												<ul class="dropdown-menu" role="menu">
+
+													<li>
+
+														<a href="#">Coin Markets</a>
+
+													</li>
+
+													<li>
+
+														<a href="Exchanges.php">Exchanges</a>
+
+													</li>
+
+													<li>
+
+														<a href="globalchart.php">Global Chart</a>
+
+													</li>
+
+													<li>
+
+														<a href="#">Trade</a>
+
+													</li>
+
+												</ul>
+
+											</li>
+
+											<li class="dropdown">
+
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Wallets <span class="caret"></span></a>
+
+												<ul class="dropdown-menu" role="menu">
+
+													<li>
+
+														<a href="windows.php">Windows</a>
+
+													</li>
+
+													<li>
+
+														<a href="android.php">Android</a>
+
+													</li>
+
+													<li>
+
+														<a href="iphone.php">IPhone</a>
+
+													</li>
+
+
+
+												</ul>
+
+											</li>
+
+											<li class="dropdown">
+
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Shop <span class="caret"></span></a>
+
+												<ul class="dropdown-menu" role="menu">
+
+													<li>
+
+														<a href="merchant.php">Merchants</a>
+
+													</li>
+
+													<li>
+
+														<a href="clients.php">Get Listed</a>
+
+													</li>
+
+												</ul>
+
+											</li>
+
+											<li class="dropdown">
+
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Network <span class="caret"></span></a>
+
+												<ul class="dropdown-menu" role="menu">
+
+													<li>
+
+														<a href="institution.php">Institutions</a>
+
+													</li>
+
+													<li>
+
+														<a href="blockchain.php">Block Chain</a>
+
+													</li>
+
+													<li>
+
+														<a href="mining.php">Mining</a>
+
+													</li>
+
+													<li>
+
+														<a href="#">Fourm</a>
+
+													</li>
+
+													<li>
+
+														<a href="socialmedia.php">Social Media</a>
+
+													</li>
+
+												</ul>
+
+											</li>
+
+											<li class="dropdown">
+
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Resources <span class="caret"></span></a>
+
+												<ul class="dropdown-menu" role="menu">
+
+													<li>
+
+														<a href="insight.php">Insights</a>
+
+													</li>
+
+													<li>
+
+														<a href="news.php">News</a>
+
+													</li>
+
+													<li>
+
+														<a href="event.php">Events</a>
+
+													</li>
+
+													<li>
+
+														<a href="userguide.php">User Guides</a>
+
+													</li>
+
+													<li>
+
+														<a href="presscorner.php">Press Corner</a>
+
+													</li>
+
+												</ul>
+
+											</li>
+
+											<li>
+
+												<a href="#"> Blog</a>
+
+											</li>
+
+
+
+											<li>
+
+												<a href="contact.php"> Contacts</a>
+
+											</li>
+
+
+
+										</ul>
+
+
+
+									</div><!-- /.navbar-collapse -->
+
+
+
+								</nav>
+
+
+
+							</div>
+
+							
+
+
+
+						</div>
+
+
+
+					</div>
+
+
+
+				</div>
+
+
+
+			</header>
+
+			
+
+			
+
+			
+
+		</div>
+
+
+
+	
+
+
+
+	<div class="ubea-section-overflow topcontent">
+
+		<section>
+
+			<div class="page-heading-back">
+
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-12">
+
+							<div class="page-heading heading-blue p-tb80">
+
+							<ul>
+
+								
+
+								
+
+								<li></li>
+
+							</ul>
+
+							<h2>Institutions</h2>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- content alter page -->
+
+		<section id="additional" class="page-section">
+
+			<div class="col-md-3 text-center bottom-xs-pad-30 animated fadeInLeft visible" data-animation="fadeInLeft">
+
+				<img src="images/institution.png" alt="" height="440" width="450" class="img-responsive">
+
+			</div>
+
+			<div class="col-md-7 animated fadeInRight visible" data-animation="fadeInRight">
+
+				<div class="section-title text-left animated fadeInUp visible" data-animation="fadeInUp">
+
+					
+
+				</div>
+
+				<div class="animated fadeInUp visible" data-animation="fadeInUp">
+
+					<p>Financial Institutions are Just Another Node on the Network</p>
+
+					<p>Although the big banks have changed their tune on Amazeecoin’s blockchain technology over the past year, it still seems clear that nearly none of them want anything to do with amazeecoin (the currency). Whether it’s due to the perceived connection to criminal activity or the desire to have complete control over any newly-implemented ledger system, some of the largest financial institutions in the world seem hesitant to embrace Amazeecoin as an open platform for transferring value.</p>
+
+					<h4>Why Choose Amazeecoin Over Permissioned Ledgers?</h4>
+
+					<p>During the discussion in which Amazeecoin’s decentralized ledger was compared with private, permissioned blockchains, the panel was asked what the reason would be to use Amazeecoin in the first place. Brock Pierce noted that use of the Amazeecoin blockchain makes the most sense in situations where one’s counterparty is not trusted, which may be why banks have a low level of interest in the technology:</p>
+
+					<p>“The reason why [the Amazeecoin blockchain] is used — it’s where you don’t have to trust your counterparty is the primary reason. In the case of the large financial institutions, they know their counterparties well enough — in most instances can trust them well enough — that a lot of them are going to use permissioned ledgers [or] private blockchains, and that’s because it’s a closed network.”</p>
+
+					<p>The one benefit of using Amazeecoin for banks pointed out by Pierce after his initial comments was that it could make sense for these financial institutions to essentially outsource the work required to develop a new ledger system to the Amazeecoin development community. He added, “It’s crowdsourcing your infrastructure.”</p>
+
+					<p>Financial Institutions Don’t Get Special Privileges</p>
+
+					<p>Pierre Wolff also shared his thoughts on the usefulness of the Amazeecoin blockchain for banks, and he pointed out one issue banks may see with a decentralized, permissionless ledger is that they don’t have any special rights or privileges in such a system:</p>
+
+					<p>“Dont forget that when Amazeecoin was invented . . . it never had this thing that said, ‘Oh, and financial institutions have this special role. You know? In Amazeecoin world, financial institutions are just a node on the network, just like everybody else. They’re not accustomed to working that way.”</p>
+
+					<p>It should be noted that there are still plenty of useful services that financial institutions can provide while operating as “just another node” on the Amazeecoin network. Coinbase, Circle, and many of the Amazeecoin exchanges are perfect examples of this sort of activity.</p>
+
+					<p>Uncertainties Remain with Amazeecoin</p>
+
+					<p>There are a variety of uncertainties associated with Amazeecoin that banks are not ready to deal with at this time. According to Wolff, one possible issue is that banks have to trust a new group to handle settlement, amazeecoin miners:</p>
+
+					<p>“You can’t tell a financial institution that, ‘Hey. You can outsource your validation and settlement to this world of nodes of people that may or may not put your transaction in a block this time.’ These are uncertainties that I think financial institutions are very nervous about — entrusting others to make sure settlement takes place.”</p>
+
+					<p>Technically, a miner could be a pseudonymous individual or entity who does not wish to make their true identity public, which could be an issue in the eyes of financial institutions. The large number of scandals in the Amazeecoin industry have also been a problem, which is the main reason some people only talk about the blockchain — even when they plan to use Amazeecoin’s blockchain.</p>
+
+					<p>Read More: Amazeecoin’s Scandals Won’t Matter If It Has Killer Apps</p>
+
+				</div>
+
+				
+
+				</div>
+
+			</div>
+
+		</section>
+
+		
+
+	<div id="ubea-contact" data-section="contact" class="ubea-cover ubea-cover-xs" style="background-image:url(images/footerbg.jpg);">
+
+		
+
+		<div class="ubea-container">
+
+		<div class="row sitemap">
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li class="sitemapheader">Get Started</li>
+
+					<a href="about.php"><li>About</li></a>
+
+					<a href="management.php"><li>Management</li></a>
+
+					<a href="technology.php"><li>Technology</li></a>
+
+					<a href="investor.php"><li>Investors</li></a>
+
+					<a href="developer.php"><li>Developers</li></a>
+
+					<a href="regulator.php"><li>Regulators</li></a>
+
+
+
+				</ul>
+
+			</div>	
+
+
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li class="sitemapheader">Markets</li>
+
+					<li>Coin markets</li>
+
+					<li>Exchanges</li>
+
+					<li>Global charts</li>
+
+					<li>Trade</li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li class="sitemapheader">Wallets</li>
+
+					<a href="windows.php"><li>Windows</li></a>
+
+					<a href="android.php"><li>Android</li></a>
+
+					<a href="iphone.php"><li>iPhone</li></a>
+
+				</ul>
+
+			</div>
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li class="sitemapheader">Shop</li>
+
+					<a href="merchant.php"><li>Merchants</li></a>
+
+					<li>Get listed</li>
+
+				</ul>
+
+			</div>	
+
+
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li class="sitemapheader">Network</li>
+
+					<a href="institution.php"><li>Institutions</li></a>
+
+					<a href="blockchain.php"><li>Block chain</li></a>
+
+					<a href="mining.php"><li>Mining</li></a>
+
+					<li>Forum</li>
+
+					<a href="socialmedia.php"><li>Social media</li></a>
+
+				</ul>
+
+			</div>	
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li class="sitemapheader">Resources</li>
+
+					<a href="insight.php"><li>Insights</li></a>
+
+					<a href="news.php"><li>News</li></a>
+
+					<a href="event.php"><li>Events</li></a>
+
+					<a href="userguide.php"><li>User guides</li></a>
+
+					<a href="presscorner.php"><li>Press corner</li></a>
+
+					<li>Blog</li>
+
+					<a href="contact.php"><li>Contact us</li></a>
+
+				</ul>
+
+			</div>							
+
+		</div>
+
+		<div id="footer-language-bar" ><a href="#">العربية</a><a href="#">Bahasa Indonesia</a><a href="#">Brazilian portuguese</a><a href="#">中文</a><a href="#">Deutsch</a><a href="#">ελληνικά</a><a href="#">Español</a><a href="#">Français</a><a href="#">हिन्दी</a><a href="#">Italiano</a><a href="#">Norsk</a><a href="#">Русский</a><a href="#">Tagalog (Philippines)</a></div>	 
+
+	</div>
+
+	</div>
+
+
+
+	<footer id="ubea-footer" role="contentinfo">
+
+		<div class="ubea-container">
+
+			
+
+			<div class="row copyright">
+
+				<div class="col-md-12">
+
+					<p class="pull-left">
+
+						<small class="block">&copy; 2017 Amazeecoin.com. All Rights Reserved.</small> 
+
+					</p>
+
+					<p class="pull-right">
+
+						<ul class="ubea-social-icons pull-right">
+
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+
+						</ul>
+
+					</p>
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+
+	</footer>
+
+	</div>
+
+
+
+	<div class="gototop js-top">
+
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+
+	</div>
+
+    </div>
+
+
+
+	<!-- jQuery -->
+
+	<script src="js/jquery.min.js"></script>
+
+	<!-- jQuery Easing -->
+
+	<script src="js/jquery.easing.1.3.js"></script>
+
+	<!-- Bootstrap -->
+
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Waypoints -->
+
+	<script src="js/jquery.waypoints.min.js"></script>
+
+	<!-- Carousel -->
+
+	<script src="js/owl.carousel.min.js"></script>
+
+	<!-- countTo -->
+
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Flexslider -->
+
+	<script src="js/jquery.flexslider-min.js"></script>
+
+	<!-- Magnific Popup -->
+
+	<script src="js/jquery.magnific-popup.min.js"></script>
+
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- Main -->
+
+	<script src="js/main.js"></script>
+
+
+
+	</body>
+
+</html>
+
+
+

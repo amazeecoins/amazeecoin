@@ -1,0 +1,156 @@
+/* css reset - makes the layout looking good in all browsers */
+
+ol, ul {
+	list-style: none; }
+.center {
+	margin:50px 0 0 190px;
+	width:240px;
+	
+}
+h1 { font-size:30px; margin:130px 0 0 0; text-align:center;
+	font-weight:bold;
+	color:#777777;
+	text-shadow: 1px 2px 0 #ffffff, 2px 4px 0 #d6d6d6;
+}
+	
+#bar {
+	background-color: #2f2f2f;
+	bottom: 0;
+	border-top:2px solid #eeeeee;
+	height: 50px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100000;
+	display:block;
+}
+
+#innerbar {
+	width:900px;
+	margin:0 auto;
+}
+
+#innerbar h2 {
+	color: #bdbdbd;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 13px 0 0;
+	text-align:center;
+	margin:0;
+	padding-top:16px;
+}
+
+#innerbar a {
+	color:#fff;
+}
+
+#wrapper{
+	width:620px;
+	margin:0 auto;
+}
+
+#nav {
+	position:relative;
+	width:620px;
+	margin:0 auto;
+	margin-top:10px;
+	padding:10px;
+}
+
+ul#navigation {
+	margin-top: 10px;
+	position:relative;
+	float:right;
+	
+}
+
+ul#navigation li {
+	display:inline;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	float:left;
+	position:relative;
+	
+}
+
+ul#navigation li a {
+	padding:10px 15px;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+		
+	
+}
+
+ul#navigation li a:hover {
+	background:#f8f8f8;
+	color:#282828;
+}
+
+ul#navigation li:hover > a {
+	background:#fff;
+	color:#282828;
+}
+
+/* Drop-Down Navigation */
+ul#navigation li:hover > ul
+{
+	visibility:visible;
+	opacity:1;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;    
+	visibility:hidden;
+    position: absolute;
+    z-index: 99999;
+	width:200px;
+	background:#f8f8f8;
+	box-shadow:1px 1px 3px #ccc;
+	opacity:0;
+	-webkit-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-moz-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-o-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	transition:opacity 0.2s linear, visibility 0.2s linear; 	
+}
+
+ul#navigation ul {
+    top: 48px;
+    left: 0px;
+}
+
+ul#navigation ul li ul {
+    top: 0;
+    left: 181px;
+}
+
+ul#navigation ul li {
+	clear:both;
+	width:100%;
+	border:0 none;
+	border-bottom:1px solid #c9c9c9;
+}
+
+ul#navigation ul li a {
+	background:none;
+	padding:7px 15px;
+	color:#616161;
+	text-shadow:1px 1px 0px #fff;
+	text-decoration:none;
+	display:inline-block;
+	border:0 none;
+	float:left;
+	clear:both;
+	
+}
+
+ul#navigation li a.first {
+	border-left: 0 none;
+}
+
+ul#navigation li a.last {
+	border-right: 0 none;
+}

@@ -1,0 +1,708 @@
+/*
+ * Theme v1.0.0
+ * Copyright 2015-2016 Theemon.com
+ */
+/*
+ Table Of Contents
+ 1) General Text Formatting and Typography
+ 2) Site Wide Content
+ 3) Header Section
+ 4) Footer Section
+ ===============================================*/
+/*
+ 1) General Text Formatting and Typography
+ ----------------------------------------*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #22272e;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #94949d;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul, ol {
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+a {
+	outline: none !important;
+}
+input, button, textarea, select, checkbox, radio {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0;
+}
+/*
+ 2) Site Wide Content
+ ----------------------------------------*/
+#content {
+	width: 100%;
+	position: relative;
+}
+#wrapper {
+	position: relative;
+	width: 100%;
+}
+body {
+	font-size: 12px;
+	line-height: 1.2;
+	color: #94949d;
+	font-weight: 400;
+	background: #fdfdfd;
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+body.homepage, body.homepage-3 {
+	font-family: 'Raleway', sans-serif;
+}
+.more-btn, .consult-btn {
+	color: #ee3135;
+	font-family: "Raleway", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+	position: relative;
+}
+.more-btn:hover, .homepage .more-btn:active, .more-btn:focus {
+	color: #ee3135;
+	text-decoration: none;
+	outline: none;
+}
+
+.contact-number {
+	font-size: 14px;
+	color: #2b2a2f;
+	font-weight: 600;
+	text-decoration: none;
+	display: block;
+	margin-top: 18px;
+}
+.contact-number:hover, .contact-number:active {
+	color: #2b2a2f;
+}
+.contact-number span {
+	float: right;
+	margin-top: 8px;
+}
+.icon-call {
+	background-position: -104px -2px;
+	display: inline-block;
+	float: left;
+	height: 34px;
+	width: 26px;
+	margin-left: 25px;
+	background-image:none;
+}
+.view-btn:hover, .contact-attorney:hover {
+	color: #fff !important;
+}
+
+/*
+ 3.13)Global Animations Style
+ ----------------------------------------*/
+.anim-section {
+	position: relative;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	-moz-transform: translateY(20px);
+	-webkit-transform: translateY(20px);
+	-o-transform: translateY(20px);
+	-ms-transform: translateY(20px);
+	transform: translateY(20px);
+	visibility: visible;
+	opacity: 0
+}
+.anim-section.animate {
+	-moz-transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+	-o-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	visibility: visible;
+	opacity: 1
+}
+input:focus, textarea:focus, .btn:focus, .zoom img, .img-thumb img, .btn, .btn:hover, .media-listing li a:hover, .media-listing li a,a, a:hover *:hover {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.img-thumb {
+	display: block;
+	overflow: hidden;
+}
+
+.img-thumb:hover img, .img-thumb:focus img, .zoom:hover img {
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.consult-btn i, .more-btn i,.consultation .fa-chevron-right {
+	transform: translateX(0px);
+	-webkit-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.consult-btn:hover i, .more-btn:hover i,.consultation:hover .fa-chevron-right {
+	transform: translateX(5px);
+	-webkit-transform: translateX(5px);
+	-ms-transform: translateX(5px);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+/*
+ 3) Header Section
+ ----------------------------------------*/
+#header {
+	position: fixed;
+	z-index: 9999;
+	top: 0px;
+	left: 0px;
+	right: 0;
+	width: 100%;
+	background: #000;
+	color:#fff;
+}
+#header.normal {
+	position: relative;
+}
+#header .primary-header {
+	padding-top: 12px;
+	padding-bottom: 8px;
+	border-bottom: 1px dotted #e5e3ec;
+}
+
+#header .media-header {
+	margin-top: 5px;
+}
+#header .primary-right-block {
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+.icon-enevlope {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 3px;
+}
+#header .icon-enevlope {
+	float: none;
+}
+#header .consultation {
+	display: inline-block;
+	text-align: right;
+}
+.consultation .fa-chevron-right{
+	font-size: 8px;
+    position: relative;
+    top: -2px;
+}
+#header .consultation > a {
+	font-size: 14px;
+	color: #2b2a2f;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+#header .consultation > a span {
+	float: right;
+	line-height: 40px;
+	padding-left: 10px;
+}
+#header  .search {
+	background: none;
+	border: 0 none;
+	color: #fff;
+	float: right;
+	font-size: 22px;
+	margin-top: 3px;
+	position: relative;
+	width: 45px;
+	z-index: 999;
+	height: 35px;
+	outline: none;
+}
+#header  .search i{
+	color:#696869;
+	font-size:25px;
+}
+#header  .header-search-box {
+	display: block;
+	right: 10px;
+	top: 0;
+	position: absolute;
+	background: #ffffff;
+	width: 0;
+	overflow: hidden;
+	transition: .3s all ease-in;
+	opacity: 0;
+}
+
+#header  .header-search-box  input {
+	width: 300px;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 10px;
+	text-transform: uppercase;
+	border: 1px solid #cccccc;
+	border-radius: 10px;
+}
+
+#header .logo {
+	margin-top: 9px;
+	position:relative;
+}
+/*.logo .svg-shape{
+	position:absolute;
+	 top: -4px;
+  	left: 14px;
+
+}*/
+#header .nav {
+	float: right;
+	/*margin-top:0;*/
+}
+#header .nav li a {
+	font-size: 15px;
+	color: #fdfdff;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+#header .navbar-default {
+	background: none;
+	border: none;
+	margin-bottom: 0;
+}
+#header .navbar-default .navbar-nav > .active > a, #header .navbar-default .navbar-nav > .active > a:hover, #header .navbar-default .navbar-nav > li  a:hover, #header .navbar-default .navbar-nav > .active > a:focus, #header .nav > li:hover > a {
+	background: none;
+	color: #fff;
+	outline: none;
+}
+
+#header .dropdown .caret {
+	border: none;
+	width: 8px;
+	height: 5px;
+	background: url(../images/arrow-drop.png) center top no-repeat;
+}
+
+#header .open-field {
+	width: 100%;
+	transition: .5s all ease;
+	opacity: 1;
+}
+
+/*media section csss*/
+.media-listing {
+	list-style: none;
+}
+.media-listing li {
+	float: left;
+	margin-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.media-listing li a {
+	font-size: 18px;
+	color: #c5c5c7;
+}
+.media-listing li a:hover {
+	text-decoration: none;
+	color: #2b2a2f;
+}
+/*
+ sticky header style
+ ------------------------------*/
+body #header {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+body #header.fixed {
+	position: relative;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+body #header.fixed.fix .navigation-header{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	right:0;
+	top: 0;
+	margin:0 auto;
+	background:#fff;
+}
+body #header.intelligent .navigation-header {
+	position:static !important;
+}
+body #header.intelligent{
+	position: fixed !important;
+}
+body #header.up {
+	top: -162px;
+	opacity: 0;
+	visibility: hidden;
+}
+body #header.down {
+	top:0;
+	opacity: 1;
+	visibility: visible;
+}
+
+
+@media only screen and (min-width:768px){
+/*Dropdown menu*/
+#header .navbar-nav > li * {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#header .navbar-default .navbar-nav > .open > a {
+	background-color: transparent;
+}
+.dropdown-menu>li>a{
+	padding: 3px 12px;
+}
+#header .dropdown-menu {
+	display:none;
+	opacity: 0;
+}
+#header .open > .dropdown-menu {
+	display: none;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#header .navbar-nav > li:hover .dropdown-menu {
+	opacity: 1;
+	display: block;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+#header .navbar-nav > li {
+	padding: 10px 0;
+	-webkit-transition: background 0.2s ease-in-out;
+	-moz-transition: background 0.2s ease-in-out;
+	-ms-transition: background 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out;
+}
+#header .navbar-nav > li:hover {
+	background: #2a2627;
+	-webkit-transition: background 0.2s ease-in-out;
+	-moz-transition: background 0.2s ease-in-out;
+	-ms-transition: background 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out;
+}
+#header .dropdown-menu {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+#header .nav li .dropdown-menu a {
+	font-weight: 400;
+}
+#header .nav li .dropdown-menu li {
+	padding: 5px 12px;
+}
+#header .navbar-nav > li > .dropdown-menu {
+	min-width: 215px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #2a2627;
+	border: none;
+	border-radius: 0;
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	border-bottom: 2px solid #ee3135;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+}
+/*
+ 4) Footer Section
+ ----------------------------------------*/
+#footer {
+	width: 100%;
+	background: #ffffff;
+}
+#footer .top-footer {
+	width: 100%;
+	border-bottom: 1px dotted #e5e3ec;
+	padding-bottom: 7px;
+}
+#footer .nav {
+	float: left;
+	margin-top: 0;
+}
+#footer .navbar-nav > li{
+	padding:0 10px;
+}
+#footer .nav li a {
+	font-size: 15px;
+	color: #79797a;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#footer .navbar-default {
+	background: none;
+	border: none;
+	margin-top: 8px;
+	min-height: 0;
+	margin-bottom: 0;
+}
+#footer .navbar-default .navbar-nav > .active > a, #footer .navbar-default .navbar-nav > .active > a:hover, #footer .navbar-default .navbar-nav > li  a:hover, #footer .navbar-default .navbar-nav > .active > a:focus {
+	background: none;
+	color: #2b2a2f;
+	outline: none;
+}
+#header .nav li a:focus, .nav .open > a:focus {
+	background-color: transparent;
+}
+#footer .dropdown .caret {
+	border: none;
+	width: 8px;
+	height: 5px;
+	background: url(../img/arrow-drop.png) center top no-repeat;
+}
+#footer .consultation {
+	float: right;
+}
+#footer .consultation > a {
+	font-size: 14px;
+	color: #2b2a2f;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+#footer .consultation > a span {
+	float: right;
+	line-height: 40px;
+	padding-left: 10px;
+}
+#footer .main-footer {
+	padding-top: 45px;
+	padding-bottom: 70px;
+	width: 100%;
+}
+#footer .main-footer .block-right {
+	float: right;
+}
+#footer .main-footer p.para-description {
+	font-size: 12px;
+}
+#footer .get-theme, #footer .copy-right {
+	display: block;
+	font-size: 12px;
+	color: #2b2a2f;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 34px;
+}
+#footer .copy-right a{
+	color: #2b2a2f;
+}
+#footer .get-theme a  {
+	color: #ee3135;
+}
+#footer .copy-right {
+	text-transform: inherit;
+}
+#footer .copy-right a:hover{
+	text-decoration:none;
+}
+#footer .icon-location {
+	width: 40px;
+	height: 34px;
+	display: block;
+	float: left;
+	background-image:none;
+}
+#footer .address-info {
+	float: left;
+	margin-left: 8px;
+	margin-bottom: 7px;
+}
+#footer .location {
+	margin-bottom: 12px;
+}
+#footer .address-info span {
+	font-size: 14px;
+	color: #79797a;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	display: block;
+}
+#footer span.attorney-theme {
+	color: #2b2a2f;
+	margin-bottom: 5px;
+}
+
+#footer .icon-call {
+	margin: 0;
+	background-image:none;
+	
+}
+#footer .contact-number span {
+	float: left;
+	margin-left: 22px;
+}
+#footer .icon-msg {
+	background-position: -58px -42px;
+	width: 30px;
+}
+#footer .contact-number {
+	margin-top: 12px;
+	outline: none;
+}
+#footer .mail-info {
+	margin-bottom: 20px;
+}
+#footer .spacer-mobile .footer-logo {
+	display: inline-block;
+	margin-bottom: 29px;
+}
+.footer-logo {
+
+	position:relative;
+}
+.footer-logo .svg-shape{
+	position:absolute;
+	 top: -4px;
+  	left:0;
+
+}
+#footer .spacer-mobile p {
+	color: #79797a;
+	font-size: 12px;
+	font-family: 'Merriweather', serif;
+	margin-bottom: 25px;
+}
+#footer .practice-footer h3 {
+	position: relative;
+}
+#footer .practice-footer h3:after {
+	width: 27px;
+	height: 2px;
+	content: "";
+	position: absolute;
+	bottom: -12px;
+	left: 0px;
+	display: block;
+	background: #b11f24;
+}
+#footer .practice-listing {
+	margin-top: 33px;
+	list-style: none;
+}
+#footer .practice-listing li {
+	margin-bottom: 20px;
+}
+#footer .practice-listing li a {
+	font-size: 14px;
+	color: #79797a;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: block;
+	text-decoration: none;
+	outline: none;
+}
+#footer .practice-listing .fa-chevron-right {
+  float: right;
+  font-size: 8px;
+  margin-top: 5px;
+}
+#footer .practice-listing li a:hover, #footer .practice-listing li:hover .fa-chevron-right, #footer .consultation > a:hover, #header .consultation > a:hover, #header .contact-number:hover {
+	color: #b11f24;
+	outline: none;
+}
+
+
+#footer .listing-continue {
+	margin-top: 52px;
+}
+#footer.mobile-line .top-footer {
+	background: #E7EBF3;
+	padding: 11px 0 7px;
+}
+#footer .practice-listing .fa-chevron-right {
+	transform: translateX(-2px);
+	-webkit-transform: translateX(-2px);
+	-ms-transform: translateX(-2px);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#footer .practice-listing li a:hover .fa-chevron-right {
+	transform: translateX(2px);
+	-webkit-transform: translateX(2px);
+	-ms-transform: translateX(2px);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
